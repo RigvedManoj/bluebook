@@ -1,0 +1,55 @@
+body{
+	font-size: 30px;
+}
+nav{
+	background-color: #4ABAAA ;
+}
+#home{
+	padding-top:10%;
+	padding-bottom:20%;
+	background-image: url("background1.jpg");
+}
+#about{
+	padding-bottom: 5%;
+	background-image: url("gold.jpg");
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+#exams{
+	padding-bottom: 5%;
+	background-image: url("silver.jpeg");
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+#features{
+	padding-bottom: 5%; 
+	background-image: url("blue.jpg");
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+#features:before{
+padding-top:100px;display:block;content:"";
+}
+#about:before{
+padding-top:100px;display:block;content:"";
+}
+#exams:before{
+padding-top:100px;display:block;content:"";
+}
+.button{
+	border-radius: 10px;  
+	cursor: pointer;
+	position: relative;
+	left:45%;
+	background-color: #000FAF;
+	font-family: Arial, Helvetica, cursive;
+	font-style: bold;
+}
+#heading{
+    font-family:Courier,cursive;
+	font-style: bold italic;
+	color: white;
+}
